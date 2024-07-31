@@ -24,7 +24,7 @@ export const HeaderContainer = styled.div`
   padding: 1rem 8rem;
 
   .headerControl {
-    display: none;
+    display: flex;
   }
 
   .logo {
@@ -66,6 +66,10 @@ export const HeaderContainer = styled.div`
 
     .menuMobileBtn img {
       width: 24px;
+    }
+
+    .headerControl {
+      display: none;
     }
   }
 
